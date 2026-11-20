@@ -2,7 +2,7 @@
 
 > **Hinweis für KI-Agenten:** Lies diese Datei zu Beginn jeder Sitzung, um zu wissen, in welchem Kapitel und in welcher Lektion der Schüler gerade arbeitet. Jede Lektion behandelt **nur ein einzelnes, anfängerfreundliches Thema**. Aktualisiere den Status, sobald eine Lektion über `Loesung` erfolgreich abgeschlossen wurde.
 
-**Aktuelle Lektion:** `kurs/L1_Grundlagen/Kapitel_01_Erste_Schritte_Terminal/Lektion_02_navigation_pwd_ls_cd`
+**Aktuelle Lektion:** `kurs/L1_Grundlagen/Kapitel_01_Erste_Schritte_Terminal/Lektion_03_dateien_mkdir_touch_cp_mv_rm`
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### Kapitel 01: Erste Schritte im Terminal (`Kapitel_01_Erste_Schritte_Terminal`)
 - [x] `Lektion_01_echo_hallo_welt` – Erste Ausgabe mit `echo`, Kommentare (`#`) & Shebang (`#!/usr/bin/env bash`)
-- [ ] `Lektion_02_navigation_pwd_ls_cd` – Im Dateisystem navigieren (`pwd`, `ls`, `cd`)
+- [x] `Lektion_02_navigation_pwd_ls_cd` – Im Dateisystem navigieren (`pwd`, `ls`, `cd`)
 - [ ] `Lektion_03_dateien_mkdir_touch_cp_mv_rm` – Dateien & Ordner verwalten (`mkdir`, `touch`, `cp`, `mv`, `rm`)
 - [ ] `Lektion_04_skript_ausfuehren_chmod` – Skripte ausführbar machen & starten (`chmod +x`, `./skript.sh`)
 - [ ] `Lektion_05_hilfe_man_help` – Hilfe finden (`man`, `--help`, `help`, Tab-Vervollständigung)
