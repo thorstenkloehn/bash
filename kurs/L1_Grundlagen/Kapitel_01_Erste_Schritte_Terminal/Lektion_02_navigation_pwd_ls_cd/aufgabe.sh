@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
-# Bildschirm ausgabe: Programm startet
+# Bildschirmausgabe: Programm startet
 echo Programm startet
-# Zeigt mir welche Verzeichnis jetzt bin
+# Zeigt mir, in welchem Verzeichnis ich jetzt bin
 pwd
-# Zeigt mir zeigt mir dieses Ordner Datei
+# Zeigt mir die Dateien und Ordner dieses Verzeichnisses
 ls
 # Wechsel zum Home-Ordner
 cd ~
-# Zeigt mir Home ordner an
+# Zeigt mir den Home-Ordner an
 pwd
-# Zeigt alle Datei ein
+# Zeigt alle Dateien an
 ls
-
-
-
