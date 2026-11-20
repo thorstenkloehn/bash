@@ -1,0 +1,11 @@
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*~
+
+# Temporäre Dateien
+*.tmp
+*.log
