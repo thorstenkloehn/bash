@@ -4,6 +4,8 @@ In diesem Projekt ist die **KI dein Programmierlehrer** und **du bist der Schül
 
 Umfang: **14 Kapitel, 58 kurze Lektionen** – jede Lektion behandelt genau ein Thema. Alle Ordner unter [`kurs/`](./kurs/) starten leer, du schreibst den Code selbst.
 
+> 🤖 **Zusatzkurs:** Der [Claude-Code-Lernpfad in Bash](./claude-lernpfad/README.md) (Hooks, Slash-Commands, Skills, Plugins; Quelle: [thorstenkloehn/claude-lernpfad](https://github.com/thorstenkloehn/claude-lernpfad)) liegt als eigenständiger Ordner `claude-lernpfad/` bei. Zum Üben dort `claude` starten.
+
 ## 🚀 Ablauf pro Lektion
 
 | Schritt | Chat-Befehl | Slash-Command | Was passiert? |
