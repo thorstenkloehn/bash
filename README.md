@@ -12,6 +12,7 @@ Umfang: **14 Kapitel, 58 kurze Lektionen** – jede Lektion behandelt genau ein 
 | **2. Üben** | `Aktives_Coden` | `/aktiv` | *(Optional)* Active Recall: Beispiel lesen, ausblenden, aus dem Gedächtnis nachbauen. |
 | **3. Hilfe** | `Frage` | `/frage` | Nach mindestens 5 Minuten eigenem Versuch gibt es einen gezielten Tipp. |
 | **4. Abgeben** | `Loesung` | `/loesung` | Prüft deine `aufgabe.sh`, gibt Feedback und hakt die Lektion ab. |
+| **Testlauf** | `Bash_Run` | `/bash-run` | Führt `bash aufgabe.sh` im Lektionsordner aus, ohne zu bewerten. |
 | **Text prüfen** | `Ueberprüfen` | `/ueberpruefen` | Rechtschreibung, Grammatik, Zeichensetzung. |
 
 ## 🧰 Voraussetzungen
