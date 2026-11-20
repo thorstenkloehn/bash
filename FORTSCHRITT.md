@@ -53,6 +53,26 @@
 - [ ] `Lektion_03_heredoc` – Here-Documents (`<<EOF`) & Here-Strings (`<<<`)
 - [ ] `Lektion_04_source_bibliothek` – Code auf mehrere Dateien aufteilen (`source` / `.`)
 
+### Kapitel 08: 🤖 Claude Code – Erste Schritte (`Kapitel_08_Claude_Erste_Schritte`)
+- [x] `Lektion_01_installation_start` – Claude Code installieren, `claude` starten, erste Frage stellen
+- [ ] `Lektion_02_prompts_und_dateien` – Gute Prompts, Dateien mit `@datei` referenzieren
+- [ ] `Lektion_03_berechtigungen` – Permission-Modi, `/permissions`, erlaubte Befehle
+- [ ] `Lektion_04_sitzungen` – `/clear`, `/compact`, `--continue`, `--resume`
+
+### Kapitel 09: 🤖 Claude Code – Kontext CLAUDE md (`Kapitel_09_Claude_Kontext_CLAUDE_md`)
+- [ ] `Lektion_01_claude_md_anlegen` – `CLAUDE.md` für die Beispiel-App schreiben
+- [ ] `Lektion_02_imports_und_regeln` – `@`-Imports, Projekt- vs. Nutzer-Regeln
+- [ ] `Lektion_03_settings_json` – `.claude/settings.json`: Berechtigungen & Umgebungsvariablen
+
+### Kapitel 10: 🤖 Claude Code – Slash Commands (`Kapitel_10_Claude_Slash_Commands`)
+- [ ] `Lektion_01_erster_command` – Eigenen Command in `.claude/commands/` anlegen
+- [ ] `Lektion_02_argumente` – `$ARGUMENTS` und Frontmatter (`description`)
+- [ ] `Lektion_03_bash_in_commands` – Shell-Ausgaben im Command einbinden (`!`-Syntax)
+
+### Kapitel 11: 🤖 Claude Code – Skills (`Kapitel_11_Claude_Skills`)
+- [ ] `Lektion_01_erster_skill` – `SKILL.md` mit `name` und `description`
+- [ ] `Lektion_02_skill_mit_skript` – Skill mit Hilfsskript in Bash
+
 ---
 
 ## 🟡 L2 Fortgeschritten
@@ -81,6 +101,26 @@
 - [ ] `Lektion_03_namerefs_funktionsbibliotheken` – Funktionsbibliotheken, Namensräume & `declare -n`
 - [ ] `Lektion_04_idempotenz_dry_run` – Idempotente Skripte & `--dry-run`-Modus
 
+### Kapitel 05: 🤖 Claude Code – Hook Grundlagen (`Kapitel_05_Claude_Hook_Grundlagen`)
+- [ ] `Lektion_01_hook_events` – Hook-Events im Überblick (`PreToolUse`, `PostToolUse`, …)
+- [ ] `Lektion_02_stdin_json_jq` – Hook-Eingabe (JSON) von stdin mit `jq` lesen
+- [ ] `Lektion_03_exit_codes` – Exit-Code 0 / 2, `stderr` als Feedback an Claude
+- [ ] `Lektion_04_hook_registrieren` – Hook in `settings.json` eintragen und testen
+
+### Kapitel 06: 🤖 Claude Code – Schutz Hooks (`Kapitel_06_Claude_Schutz_Hooks`)
+- [ ] `Lektion_01_gefaehrliche_befehle_blocken` – `PreToolUse`: `rm -rf` & Co. blockieren
+- [ ] `Lektion_02_geheime_dateien_schuetzen` – Zugriff auf `.env` & Schlüssel verhindern
+- [ ] `Lektion_03_json_entscheidung` – Strukturierte JSON-Antwort (`permissionDecision`)
+
+### Kapitel 07: 🤖 Claude Code – Qualitaets Hooks (`Kapitel_07_Claude_Qualitaets_Hooks`)
+- [ ] `Lektion_01_shellcheck_nach_edit` – `PostToolUse`: `shellcheck` nach jeder Änderung
+- [ ] `Lektion_02_tests_automatisch` – Tests der Beispiel-App automatisch starten
+- [ ] `Lektion_03_prompt_hook` – `UserPromptSubmit`: Kontext automatisch ergänzen
+
+### Kapitel 08: 🤖 Claude Code – Statusline und Logging (`Kapitel_08_Claude_Statusline_und_Logging`)
+- [ ] `Lektion_01_statusline` – Eigene Statusline als Bash-Skript
+- [ ] `Lektion_02_audit_log` – Alle Tool-Aufrufe in eine Logdatei schreiben
+
 ---
 
 ## 🟠 L3 Profi (Claude Code Plugins, Hooks & Tools)
@@ -102,64 +142,18 @@
 - [ ] `Lektion_03_slash_commands_skills` – Eigene Slash-Commands & Skills mit Bash-Helfern
 - [ ] `Lektion_04_plugin_paketieren_release` – Plugin paketieren & veröffentlichen (Git-Tag, Release)
 
-
-
----
-
-## 🔵 L4 Claude-Code-Lernpfad (Hooks, Skills & Plugins an der `beispiel-app`)
-
-### Kapitel 01: Erste Schritte (`Kapitel_01_Erste_Schritte`)
-- [x] `Lektion_01_installation_start` – Claude Code installieren, `claude` starten, erste Frage stellen
-- [ ] `Lektion_02_prompts_und_dateien` – Gute Prompts, Dateien mit `@datei` referenzieren
-- [ ] `Lektion_03_berechtigungen` – Permission-Modi, `/permissions`, erlaubte Befehle
-- [ ] `Lektion_04_sitzungen` – `/clear`, `/compact`, `--continue`, `--resume`
-
-### Kapitel 02: Kontext CLAUDE md (`Kapitel_02_Kontext_CLAUDE_md`)
-- [ ] `Lektion_01_claude_md_anlegen` – `CLAUDE.md` für die Beispiel-App schreiben
-- [ ] `Lektion_02_imports_und_regeln` – `@`-Imports, Projekt- vs. Nutzer-Regeln
-- [ ] `Lektion_03_settings_json` – `.claude/settings.json`: Berechtigungen & Umgebungsvariablen
-
-### Kapitel 03: Slash Commands (`Kapitel_03_Slash_Commands`)
-- [ ] `Lektion_01_erster_command` – Eigenen Command in `.claude/commands/` anlegen
-- [ ] `Lektion_02_argumente` – `$ARGUMENTS` und Frontmatter (`description`)
-- [ ] `Lektion_03_bash_in_commands` – Shell-Ausgaben im Command einbinden (`!`-Syntax)
-
-### Kapitel 04: Skills (`Kapitel_04_Skills`)
-- [ ] `Lektion_01_erster_skill` – `SKILL.md` mit `name` und `description`
-- [ ] `Lektion_02_skill_mit_skript` – Skill mit Hilfsskript in Bash
-
-### Kapitel 05: Hook Grundlagen (`Kapitel_05_Hook_Grundlagen`)
-- [ ] `Lektion_01_hook_events` – Hook-Events im Überblick (`PreToolUse`, `PostToolUse`, …)
-- [ ] `Lektion_02_stdin_json_jq` – Hook-Eingabe (JSON) von stdin mit `jq` lesen
-- [ ] `Lektion_03_exit_codes` – Exit-Code 0 / 2, `stderr` als Feedback an Claude
-- [ ] `Lektion_04_hook_registrieren` – Hook in `settings.json` eintragen und testen
-
-### Kapitel 06: Schutz Hooks (`Kapitel_06_Schutz_Hooks`)
-- [ ] `Lektion_01_gefaehrliche_befehle_blocken` – `PreToolUse`: `rm -rf` & Co. blockieren
-- [ ] `Lektion_02_geheime_dateien_schuetzen` – Zugriff auf `.env` & Schlüssel verhindern
-- [ ] `Lektion_03_json_entscheidung` – Strukturierte JSON-Antwort (`permissionDecision`)
-
-### Kapitel 07: Qualitaets Hooks (`Kapitel_07_Qualitaets_Hooks`)
-- [ ] `Lektion_01_shellcheck_nach_edit` – `PostToolUse`: `shellcheck` nach jeder Änderung
-- [ ] `Lektion_02_tests_automatisch` – Tests der Beispiel-App automatisch starten
-- [ ] `Lektion_03_prompt_hook` – `UserPromptSubmit`: Kontext automatisch ergänzen
-
-### Kapitel 08: Statusline und Logging (`Kapitel_08_Statusline_und_Logging`)
-- [ ] `Lektion_01_statusline` – Eigene Statusline als Bash-Skript
-- [ ] `Lektion_02_audit_log` – Alle Tool-Aufrufe in eine Logdatei schreiben
-
-### Kapitel 09: Headless und Skripte (`Kapitel_09_Headless_und_Skripte`)
+### Kapitel 04: 🤖 Claude Code – Headless und Skripte (`Kapitel_04_Claude_Headless_und_Skripte`)
 - [ ] `Lektion_01_claude_p` – `claude -p`: Claude in Bash-Skripten aufrufen
 - [ ] `Lektion_02_output_format_json` – `--output-format json` mit `jq` auswerten
 - [ ] `Lektion_03_pipes_und_batch` – Pipes & Schleifen: Code-Review über viele Dateien
 - [ ] `Lektion_04_git_hook_ci` – Git-Hook & CI-Job mit Claude
 
-### Kapitel 10: Subagents und MCP (`Kapitel_10_Subagents_und_MCP`)
+### Kapitel 05: 🤖 Claude Code – Subagents und MCP (`Kapitel_05_Claude_Subagents_und_MCP`)
 - [ ] `Lektion_01_subagent_anlegen` – Eigenen Subagent in `.claude/agents/`
 - [ ] `Lektion_02_mcp_server_einbinden` – MCP-Server mit `claude mcp add` einbinden
 - [ ] `Lektion_03_mcp_server_in_bash` – Minimalen MCP-Server in Bash verstehen
 
-### Kapitel 11: Plugin bauen (`Kapitel_11_Plugin_bauen`)
+### Kapitel 06: 🤖 Claude Code – Plugin bauen (`Kapitel_06_Claude_Plugin_bauen`)
 - [ ] `Lektion_01_plugin_struktur` – Plugin-Ordner & `plugin.json`
 - [ ] `Lektion_02_plugin_inhalte` – Commands, Skills und Hooks ins Plugin packen
 - [ ] `Lektion_03_marketplace_release` – Marketplace-Datei & Release

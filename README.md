@@ -1,10 +1,8 @@
 # 🐚 Interaktiver Bash-Kurs: Von Null zu eigenen Claude Code Hooks & Plugins
 
-In diesem Projekt ist die **KI dein Programmierlehrer** und **du bist der Schüler**. Du lernst Bash Schritt für Schritt: Grundlagen (`L1`), fortgeschrittene Techniken (`L2`) und Entwicklung eigener **Claude Code Hooks, CLI-Tools und Plugins** (`L3`) sowie den Claude-Code-Lernpfad (`L4`).
+In diesem Projekt ist die **KI dein Programmierlehrer** und **du bist der Schüler**. Du lernst Bash Schritt für Schritt: Grundlagen (`L1`), fortgeschrittene Techniken (`L2`) und Entwicklung eigener **Claude Code Hooks, CLI-Tools und Plugins** (`L3`) mit zusätzlichen 🤖 **Claude-Code-Kapiteln** in jeder Stufe (`CLAUDE.md`, Commands, Skills, Hooks, Plugins), geübt an [`kurs/beispiel-app/`](./kurs/beispiel-app/) (Quelle: [thorstenkloehn/claude-lernpfad](https://github.com/thorstenkloehn/claude-lernpfad)).
 
 Umfang: **25 Kapitel, 92 kurze Lektionen** – jede Lektion behandelt genau ein Thema. Alle Ordner unter [`kurs/`](./kurs/) starten leer, du schreibst den Code selbst.
-
-> 🤖 **L4:** Der [Claude-Code-Lernpfad](./kurs/L4_Claude_Code_Lernpfad/README.md) (Slash-Commands, Skills, Hooks, Plugins; Quelle: [thorstenkloehn/claude-lernpfad](https://github.com/thorstenkloehn/claude-lernpfad)) ist als vierte Stufe Teil des Kurses.
 
 ## 🚀 Ablauf pro Lektion
 
