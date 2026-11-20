@@ -1,7 +1,0 @@
-.DS_Store
-*.swp
-*~
-*.tmp
-*.log
-.claude/settings.local.json
-beispiel-app/.todo-data/
